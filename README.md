@@ -1,3 +1,11 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:713F12,50:EAB308,100:FDE68A&height=210&section=header&text=PASSWORD%20GENERATOR&fontSize=38&fontColor=FFFFFF&fontAlignY=38&desc=Create%20Strong%20Passwords&descAlignY=60&descSize=15" width="100%" />
+
+</div>
+
+---
+
 # Password Generator
 
 ## Description
