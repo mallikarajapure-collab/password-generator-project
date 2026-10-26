@@ -1,40 +1,51 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:713F12,50:EAB308,100:FDE68A&height=210&section=header&text=PASSWORD%20GENERATOR&fontSize=38&fontColor=FFFFFF&fontAlignY=38&desc=Create%20Strong%20Passwords&descAlignY=60&descSize=15" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:064E3B,50:059669,100:34D399&height=210&section=header&text=PASSWORD%20GENERATOR&fontSize=40&fontColor=FFFFFF&fontAlignY=38&desc=Random%20Character-Based%20Passwords&descAlignY=60&descSize=14" width="100%" alt="Emerald green header" />
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Random%20%2B%20String-059669?style=for-the-badge" alt="Python standard library" />
 
 </div>
 
 ---
 
-# Password Generator
+## 🔑 Overview
 
-## Description
-A beginner-friendly Python project that generates strong random passwords using letters, numbers, and special characters. This project helps users create secure passwords and understand basic password security concepts.
+A beginner-friendly Python CLI script that creates a password from a pool of uppercase letters, lowercase letters, digits, and punctuation characters.
 
-## Features
-- Generates random passwords
-- User can choose password length
-- Uses uppercase and lowercase letters
-- Includes numbers and special characters
-- Helps create strong and secure passwords
+## ✨ Features
 
-## Technology Used
+- Prompts for a desired password length.
+- Builds a character pool with Python's `string` module.
+- Selects characters with `random.choice()`.
+- Prints the generated password.
+
+## 🧰 Tech Stack
+
 - Python
+- Built-in `random` and `string` modules
 
-## How to Run
-1. Open the project in VS Code.
-2. Run the file:
-   python password_generator.py
-3. Enter the desired password length.
-4. View the generated password.
+## 🚀 Run Locally
 
-## Example
+The source file is named `password generator,py.py` (including the comma).
 
-Input:
-12
+```bash
+python "password generator,py.py"
+```
 
-Output:
-Generated Password: A@7kP#2m!Qx9
+Enter a positive length when prompted.
 
-## Author
-Mallika
+## 🔄 How It Works
+
+1. Read the requested length.
+2. Combine letters, digits, and punctuation into one character pool.
+3. Select one random character per position.
+4. Print the generated string.
+
+## ⚠️ Security Note
+
+This is a learning project and uses Python's non-cryptographic `random` module. For passwords protecting real accounts, prefer a trusted password manager or a cryptographically secure generator such as Python's `secrets` module. Do not commit generated passwords to GitHub.
+
+---
+
+<div align="center"><sub>Python fundamentals • Strings • Loops • Random selection</sub></div>
